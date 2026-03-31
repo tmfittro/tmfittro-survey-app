@@ -20,7 +20,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
 
-          # 🔥 THIS IS THE ONLY THING THAT MATTERS
+          
           app_location: "artifacts/YOUR-APP-NAME/dist/public"
 
           skip_app_build: true
